@@ -1,4 +1,4 @@
-import { storage } from '../server/storage';
+import { storage } from '../shared/storage';
 import type { VercelRequest, VercelResponse } from '@vercel/node';
 
 export default async function handler(req: VercelRequest, res: VercelResponse) {
