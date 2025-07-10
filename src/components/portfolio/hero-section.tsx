@@ -66,14 +66,18 @@ const HeroSection = () => {
 
   const handleResumeDownload = async () => {
     try {
-      const response = await fetch('/api/resume');
-      const data = await response.json();
-      if (data.success) {
-        // In a real application, this would trigger the actual download
-        window.open('/resume.pdf', '_blank');
-      }
+      // Create a link element to trigger download
+      const link = document.createElement('a');
+      link.href = '/Milan_Savaliya_Resume.pdf';
+      link.download = 'Milan_Savaliya_Resume.pdf';
+      link.target = '_blank';
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
     } catch (error) {
       console.error('Failed to download resume:', error);
+      // Fallback: open in new tab
+      window.open('/Milan_Savaliya_Resume.pdf', '_blank');
     }
   };
 

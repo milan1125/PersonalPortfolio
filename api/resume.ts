@@ -6,7 +6,7 @@ export default function handler(req: VercelRequest, res: VercelResponse) {
   }
   res.json({ 
     success: true, 
-    downloadUrl: '/resume.pdf',
+    downloadUrl: '/Milan_Savaliya_Resume.pdf',
     message: 'Resume download initiated' 
   });
 } 
