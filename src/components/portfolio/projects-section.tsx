@@ -13,8 +13,8 @@ const ProjectsSection = () => {
       description: 'Modern Learning Management System with multi-role access, video streaming, and real-time analytics. Features instructor tools managing 100+ modules and interactive course workflows.',
       technologies: ['React.js', 'Redux Toolkit', 'Node.js', 'MongoDB', 'Stripe', 'Cloudinary'],
       date: 'May - June 2025',
-      githubUrl: 'https://github.com/milansavaliya/skillhive',
-      liveUrl: 'https://skillhive-demo.vercel.app'
+      githubUrl: 'https://github.com/milan1125/skillhive',
+      liveUrl: 'https://skillhive-milan.vercel.app/'
     },
     {
       id: '2',
@@ -22,8 +22,8 @@ const ProjectsSection = () => {
       description: 'MERN-stack rental property platform enabling users to browse, filter, and book properties. Features property management tools for owners and integrated search functionality.',
       technologies: ['React', 'Node.js', 'Express', 'MongoDB', 'Vercel'],
       date: 'September 2024',
-      githubUrl: 'https://github.com/milansavaliya/rent-home',
-      liveUrl: 'https://rent-home-demo.vercel.app'
+      githubUrl: 'https://github.com/milan1125/rent-home',
+      liveUrl: 'https://rent-home-flax.vercel.app/'
     },
     {
       id: '3',
@@ -31,7 +31,7 @@ const ProjectsSection = () => {
       description: 'Intelligent web application for matching candidates to jobs based on skills and salary compatibility. Features rule-based matching with interactive data visualization and report generation.',
       technologies: ['Python', 'Flask', 'Pandas', 'JavaScript', 'HTML/CSS'],
       date: 'April 2025',
-      githubUrl: 'https://github.com/milansavaliya/resume-job-matching'
+      githubUrl: 'https://github.com/milan1125/resume-job-matching'
     }
   ];
 
